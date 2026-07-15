@@ -5,3 +5,4 @@ def perrin(m=100):
         result.append(a)
         a, b, c = b, c, a+b
     return result
+print(perrin())

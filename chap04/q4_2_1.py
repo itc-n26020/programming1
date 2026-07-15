@@ -16,3 +16,7 @@ def number_to_day(num=0):
     else:
         day = '今日より1日を超えて離れた日'
     return day
+print(number_to_day())
+print(number_to_day(1))
+print(number_to_day(num=3))
+help(number_to_day)
