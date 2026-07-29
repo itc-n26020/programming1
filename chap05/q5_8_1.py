@@ -1,12 +1,12 @@
 country_code = {
-        'Iceland': {'code': '354','capital': 'Reykjavik'},
+        'Iceland': {'code': '354', 'capital': 'Reykjavik'},
         'Ireland': {'code': '353', 'capital': 'Dublin'},
         'Azerbaaidjan': {'code': '994', 'capital': 'Baku'}
 }
 
 def getstr_keyval(x):
     if not isinstance(x, dict):
-        return x
+        return ' ' + str(x)
 
     my_str = ''
     for key, val in x.items():
